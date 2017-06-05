@@ -75,10 +75,10 @@ def lh_img2lmdb(img_path,l_lmdb_path,h_lmdb_path):
 
 if __name__ == '__main__':
     # train
-    #img_path = r'/home/a/SR/train.txt'
-    #l_lmdb_path = r"/home/a/SR/trainL_lmdb"
-    #h_lmdb_path = r"/home/a/SR/trainH_lmdb"
-    #lh_img2lmdb(img_path,l_lmdb_path,h_lmdb_path)
+    img_path = r'/home/a/SR/train.txt'
+    l_lmdb_path = r"/home/a/SR/trainL_lmdb"
+    h_lmdb_path = r"/home/a/SR/trainH_lmdb"
+    lh_img2lmdb(img_path,l_lmdb_path,h_lmdb_path)
     # test
     img_path = r'/home/a/SR/test.txt'
     l_lmdb_path = r"/home/a/SR/testL_lmdb"

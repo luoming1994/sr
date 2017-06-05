@@ -5,7 +5,7 @@
 #txt_path="/home/a/SR/train.txt"
 
 ## test
-img_dir="/home/a/SR/test_data/Set"  
+img_dir="/home/a/SR/test_data/Set14"  
 txt_path="/home/a/SR/test.txt"  
 # clear 
 : > $txt_path                                                                                                                                           
